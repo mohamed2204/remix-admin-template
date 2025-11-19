@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './pages/Home';
-import Collection from './pages/Collection';
-import About from './pages/About';
-import Contact from './pages/Contact';
+import Home from './Pages/Home';
+import Collection from './Pages/Collection';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import Login from './pages/Login';
@@ -16,6 +16,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 console.log(toast);
+
 
 function App() {
   return (
