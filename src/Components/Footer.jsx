@@ -15,35 +15,34 @@ const Footer = () => {
         <div className="">
           <img src={assets.logo} alt="" className="mb-5 w-32 " />
           <p className="w-full sm:w-2/3 text-gray-600">
-            Shop with Forever and experience the convenience of online shopping
-            like never before.
+            Faites vos achats chez SamAlim et découvrez le confort du shopping en ligne comme jamais auparavant.
           </p>
         </div>
 
         <div className="">
-          <p className="text-xl font-medium mb-5">COMPANY</p>
+          <p className="text-xl font-medium mb-5">ENTREPRISE</p>
 
           <ul className="flex flex-col flex-1 text-gray-600 cursor-pointer">
             <li onClick={scrollToTop} className="mb-2">
-              Home
+              Accueil
             </li>
             <li onClick={scrollToTop} className="mb-2">
-              About Us
+              A propos de nous
             </li>
-            <li onClick={scrollToTop} className="mb-2">
+            {/* <li onClick={scrollToTop} className="mb-2">
               Delivery
             </li>
             <li onClick={scrollToTop} className="mb-2">
               Privacy policy
-            </li>
+            </li> */}
           </ul>
         </div>
 
         <div className="">
-          <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
+          <p className="text-xl font-medium mb-5">ENTRER EN CONTACT</p>
           <ul className="flex flex-col flex-1 text-gray-600">
-            <li className="mb-2">+123 456 7890</li>
-            <li className="mb-2">contact@forevryou.com </li>
+            <li className="mb-2">+212 XXX XXX XXX</li>
+            <li className="mb-2">contact@samir-alim.com </li>
           </ul>
         </div>
       </div>

@@ -67,7 +67,7 @@ import star_dull_icon from './star_dull_icon.png';
 import star_icon from './star_icon.png';
 import support_img from './support_img.png';
 import menu_icon from './menu_icon.png';
-import about_img from './about_img.png';
+import about_img from './about_img.jpg';
 import contact_img from './contact_img.png';
 import razorpay_logo from './razorpay_logo.png';
 import stripe_logo from './stripe_logo.png';
@@ -776,13 +776,13 @@ export const products1 = [
 export const products = [
   {
     _id: 'aaaaa',
-    name: "Women's Casual Cotton Blouse",
+    name: "Fenêtre aluminium : une multitude de styles pour un esthétisme optimal",
     description:
-      "A versatile and comfortable women's top perfect for everyday wear. This lightweight cotton blouse features a flattering round neck and short sleeves, ideal for pairing with jeans or skirts.",
+      "À la fois design, durable et isolante, la fenêtre aluminium est fréquemment plébiscitée au sein de foyers. Aussi bien dans le neuf que lors de travaux de rénovation, il s’agit d’un matériau idéal pour valoriser la maison. Ses nombreux atouts en font une excellente solution pour compléter une architecture moderne comme traditionnelle. La fenêtre aluminium affiche de remarquables performances et bénéficie d’une technologie à rupture de ponts thermiques. À la fois esthétique et tendance, elle répond à toutes les exigences de votre clientèle et offre un large choix de coloris.",
     price: 100,
     image: [p_img1],
-    category: 'Women',
-    subCategory: 'Topwear',
+    category: 'Fenêtre',
+    subCategory: 'Aluminium',
     sizes: ['S', 'M', 'L'],
     date: 1716634345448,
     bestseller: true,
