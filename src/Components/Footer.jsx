@@ -42,14 +42,14 @@ const Footer = () => {
           <p className="text-xl font-medium mb-5">ENTRER EN CONTACT</p>
           <ul className="flex flex-col flex-1 text-gray-600">
             <li className="mb-2">+212 XXX XXX XXX</li>
-            <li className="mb-2">contact@samir-alim.com </li>
+            <li className="mb-2">contact@samir-alim.com</li>
           </ul>
         </div>
       </div>
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2024@ forever.com - All Rights Reserved
+          Copyright 2025@samir-alim.com - All Rights Reserved
         </p>
       </div>
     </div>
