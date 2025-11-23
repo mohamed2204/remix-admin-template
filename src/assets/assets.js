@@ -1,8 +1,25 @@
-import p_img1 from './p_img1.png';
-import p_img2_1 from './p_img2_1.png';
-import p_img2_2 from './p_img2_2.png';
-import p_img2_3 from './p_img2_3.png';
-import p_img2_4 from './p_img2_4.png';
+import p_img1 from './hero_img.png';
+import p_img1_1 from './coulisse_1.jpeg';
+import p_img1_2 from './coulisse_1_2.jpeg';
+import p_img1_3 from './coulisse_1.jpeg';
+import p_img1_4 from './coulisse_1_2.jpeg';
+
+import p_img2_1 from './coulisse_2.jpeg';
+import p_img2_2 from './coulisse_2.jpeg';
+import p_img2_3 from './coulisse_2.jpeg';
+import p_img2_4 from './coulisse_2.jpeg';
+
+import p_img3_1 from './coulisse_3.jpeg';
+import p_img3_2 from './coulisse_3.jpeg';
+import p_img3_3 from './coulisse_3.jpeg';
+import p_img3_4 from './coulisse_3.jpeg';
+
+import p_img4_1 from './coulisse_4.jpeg';
+import p_img4_2 from './coulisse_4.jpeg';
+import p_img4_3 from './coulisse_4.jpeg';
+import p_img4_4 from './coulisse_4.jpeg';
+
+
 import p_img3 from './p_img3.png';
 import p_img4 from './p_img4.png';
 import p_img5 from './p_img5.png';
@@ -776,12 +793,12 @@ export const products1 = [
 export const products = [
   {
     _id: 'aaaaa',
-    name: "Porte vue balcon esthétisme optimal",
+    name: "Porte coulissante en aluminium",
     description:
       "À la fois design, durable et isolante, la fenêtre aluminium est fréquemment plébiscitée au sein de foyers. Aussi bien dans le neuf que lors de travaux de rénovation, il s’agit d’un matériau idéal pour valoriser la maison. Ses nombreux atouts en font une excellente solution pour compléter une architecture moderne comme traditionnelle. La fenêtre aluminium affiche de remarquables performances et bénéficie d’une technologie à rupture de ponts thermiques. À la fois esthétique et tendance, elle répond à toutes les exigences de votre clientèle et offre un large choix de coloris.",
     price: 100,
-    image: [p_img1],
-    category: 'Porte',
+    image: [p_img1_1, p_img1_2, p_img1_3, p_img1_4],
+    category: 'Coulisse',
     subCategory: 'Aluminium',
     sizes: ['S', 'M', 'L'],
     date: 1716634345448,
@@ -794,7 +811,7 @@ export const products = [
       "A staple for any man's wardrobe, this pure cotton t-shirt offers both comfort and style. Its durable fabric and timeless design make it suitable for various occasions, from casual outings to relaxed office environments.",
     price: 200,
     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: 'Men',
+    category: 'Coulisse',
     subCategory: 'Topwear',
     sizes: ['M', 'L', 'XL'],
     date: 1716621345448,
@@ -806,8 +823,8 @@ export const products = [
     description:
       'A charming and colorful top designed for young girls who love to express their personality through clothing. This cotton tee features fun prints and a comfortable fit, perfect for school or playtime adventures.',
     price: 220,
-    image: [p_img3],
-    category: 'Kids',
+    image: [p_img3_1, p_img3_2, p_img3_3, p_img3_4],
+    category: 'Coulisse',
     subCategory: 'Topwear',
     sizes: ['S', 'L', 'XL'],
     date: 1716234545448,
@@ -819,8 +836,8 @@ export const products = [
     description:
       'A must-have basic t-shirt for men seeking comfort and versatility. Made from soft, breathable cotton, this tee is perfect for layering or wearing on its own, suitable for various casual settings.',
     price: 110,
-    image: [p_img4],
-    category: 'Men',
+    image: [p_img4_1, p_img4_2, p_img4_3, p_img4_4],
+    category: 'Coulisse',
     subCategory: 'Topwear',
     sizes: ['S', 'M', 'XXL'],
     date: 1716621345448,
