@@ -15,10 +15,10 @@ const ProductItem = ({ id, image, name, price }) => {
           className="w-full h-48 object-cover mb-2 rounded hover:scale-110 transition ease-in-out duration-500 "
         />
         <p className="pt-3 pb-1 text-sm ">{name}</p>
-        <p className="text-sm font-medium">
+        {/* <p className="text-sm font-medium">
           {currency}
           {price}
-        </p>
+        </p> */}
       </div>
     </Link>
   );

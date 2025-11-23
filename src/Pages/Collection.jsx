@@ -122,7 +122,7 @@ const Collection = () => {
                 value={'Coulisse'}
                 onChange={toggleCategory}
               />
-              CLOULISSE
+              COULISSE
             </p>
             <p className="flex gap-2">
               <input

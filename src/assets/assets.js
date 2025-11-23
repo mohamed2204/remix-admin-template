@@ -19,6 +19,35 @@ import p_img4_2 from './coulisse_4.jpeg';
 import p_img4_3 from './coulisse_4.jpeg';
 import p_img4_4 from './coulisse_4.jpeg';
 
+import p_img5_1 from './coulisse_5.jpeg';
+import p_img5_2 from './coulisse_5.jpeg';
+import p_img5_3 from './coulisse_5.jpeg';
+import p_img5_4 from './coulisse_5.jpeg';
+
+import p_img6_1 from './dressing_1.jpeg';
+import p_img6_2 from './dressing_1.jpeg';
+import p_img6_3 from './dressing_1.jpeg';
+import p_img6_4 from './dressing_1.jpeg';
+
+import p_img7_1 from './dressing_2.jpeg';
+import p_img7_2 from './dressing_2.jpeg';
+import p_img7_3 from './dressing_2.jpeg';
+import p_img7_4 from './dressing_2.jpeg';
+
+import p_img8_1 from './dressing_3.jpeg';
+import p_img8_2 from './dressing_3.jpeg';
+import p_img8_3 from './dressing_3.jpeg';
+import p_img8_4 from './dressing_3.jpeg';
+
+import p_img9_1 from './dressing_4.jpeg';
+import p_img9_2 from './dressing_4.jpeg';
+import p_img9_3 from './dressing_4.jpeg';
+import p_img9_4 from './dressing_4.jpeg';
+
+import p_img10_1 from './dressing_5.jpeg';
+import p_img10_2 from './dressing_5.jpeg';
+import p_img10_3 from './dressing_5.jpeg';
+import p_img10_4 from './dressing_5.jpeg';
 
 import p_img3 from './p_img3.png';
 import p_img4 from './p_img4.png';
@@ -793,9 +822,9 @@ export const products1 = [
 export const products = [
   {
     _id: 'aaaaa',
-    name: "Porte coulissante en aluminium",
+    name: "Porte/fenêtre Coulissante 1 Aluminium",
     description:
-      "À la fois design, durable et isolante, la fenêtre aluminium est fréquemment plébiscitée au sein de foyers. Aussi bien dans le neuf que lors de travaux de rénovation, il s’agit d’un matériau idéal pour valoriser la maison. Ses nombreux atouts en font une excellente solution pour compléter une architecture moderne comme traditionnelle. La fenêtre aluminium affiche de remarquables performances et bénéficie d’une technologie à rupture de ponts thermiques. À la fois esthétique et tendance, elle répond à toutes les exigences de votre clientèle et offre un large choix de coloris.",
+      "Coulisse 1, À la fois design, durable et isolante, la fenêtre aluminium est fréquemment plébiscitée au sein de foyers. Aussi bien dans le neuf que lors de travaux de rénovation, il s’agit d’un matériau idéal pour valoriser la maison. Ses nombreux atouts en font une excellente solution pour compléter une architecture moderne comme traditionnelle. La fenêtre aluminium affiche de remarquables performances et bénéficie d’une technologie à rupture de ponts thermiques. À la fois esthétique et tendance, elle répond à toutes les exigences de votre clientèle et offre un large choix de coloris.",
     price: 100,
     image: [p_img1_1, p_img1_2, p_img1_3, p_img1_4],
     category: 'Coulisse',
@@ -806,7 +835,7 @@ export const products = [
   },
   {
     _id: 'aaaab',
-    name: "Men's Classic Crew Neck T-shirt",
+    name: "Porte/fenêtre Coulissante 2",
     description:
       "A staple for any man's wardrobe, this pure cotton t-shirt offers both comfort and style. Its durable fabric and timeless design make it suitable for various occasions, from casual outings to relaxed office environments.",
     price: 200,
@@ -819,7 +848,7 @@ export const products = [
   },
   {
     _id: 'aaaac',
-    name: "Girls' Playful Printed Tee",
+    name: "Porte/fenêtre Coulissante 3",
     description:
       'A charming and colorful top designed for young girls who love to express their personality through clothing. This cotton tee features fun prints and a comfortable fit, perfect for school or playtime adventures.',
     price: 220,
@@ -832,7 +861,7 @@ export const products = [
   },
   {
     _id: 'aaaad',
-    name: "Men's Everyday Essentials Tee",
+    name: "Porte/fenêtre Coulissante 4",
     description:
       'A must-have basic t-shirt for men seeking comfort and versatility. Made from soft, breathable cotton, this tee is perfect for layering or wearing on its own, suitable for various casual settings.',
     price: 110,
@@ -845,12 +874,12 @@ export const products = [
   },
   {
     _id: 'aaaae',
-    name: "Women's Elegant Draped Top",
+    name: "Porte/fenêtre Coulissante 5",
     description:
       "An elegant and flattering top designed to enhance a woman's silhouette. This cotton blend top features subtle draping details and a comfortable fit, making it suitable for both office wear and evening outings.",
     price: 130,
-    image: [p_img5],
-    category: 'Women',
+    image: [p_img5_1, p_img5_2, p_img5_3, p_img5_4],
+    category: 'Coulisse',
     subCategory: 'Topwear',
     sizes: ['M', 'L', 'XL'],
     date: 1716622345448,
@@ -858,12 +887,12 @@ export const products = [
   },
   {
     _id: 'aaaaf',
-    name: "Girls' Adorable Ruffled Top",
+    name: "Dressing : modèle 1",
     description:
       'A cute and playful top designed to make little girls feel special. This cotton top features charming ruffle details and comes in vibrant colors, perfect for birthdays, parties, or any day she wants to feel extra pretty.',
     price: 140,
-    image: [p_img6],
-    category: 'Kids',
+    image: [p_img6_1, p_img6_2, p_img6_3, p_img6_4],
+    category: 'Dressing',
     subCategory: 'Topwear',
     sizes: ['S', 'L', 'XL'],
     date: 1716623423448,
@@ -871,12 +900,12 @@ export const products = [
   },
   {
     _id: 'aaaag',
-    name: "Men's Smart Casual Chinos",
+    name: "Dressing : modèle 2",
     description:
       'Versatile and stylish trousers for the modern man. These tapered fit chinos offer a perfect balance of comfort and sophistication, suitable for both office environments and casual weekend outings.',
     price: 190,
-    image: [p_img7],
-    category: 'Men',
+    image: [p_img7_1, p_img7_2, p_img7_3, p_img7_4],
+    category: 'Dressing',
     subCategory: 'Bottomwear',
     sizes: ['S', 'L', 'XL'],
     date: 1716621542448,
@@ -884,12 +913,12 @@ export const products = [
   },
   {
     _id: 'aaaah',
-    name: "Men's Athletic Performance Tee",
+    name: "Dressing : modèle 3",
     description:
       'A high-performance t-shirt designed for active men. Made from moisture-wicking cotton blend fabric, this tee keeps you cool and dry during workouts or sports activities, while maintaining a stylish look.',
     price: 140,
-    image: [p_img8],
-    category: 'Men',
+    image: [p_img8_1, p_img8_2, p_img8_3, p_img8_4],
+    category: 'Dressing',
     subCategory: 'Topwear',
     sizes: ['S', 'M', 'L', 'XL'],
     date: 1716622345448,
@@ -897,12 +926,12 @@ export const products = [
   },
   {
     _id: 'aaaai',
-    name: "Girls' Cheerful Graphic Tee",
+    name: "Dressing : modèle 4",
     description:
       'A fun and expressive t-shirt for girls who love to showcase their personality. This cotton top features playful graphics and comes in bright colors, perfect for school, playdates, or casual family outings.',
     price: 100,
-    image: [p_img9],
-    category: 'Kids',
+    image: [p_img9_1, p_img9_2, p_img9_3, p_img9_4],
+    category: 'Dressing',
     subCategory: 'Topwear',
     sizes: ['M', 'L', 'XL'],
     date: 1716621235448,
@@ -910,12 +939,12 @@ export const products = [
   },
   {
     _id: 'aaaaj',
-    name: "Men's Classic Fit Dress Pants",
+    name: "Dressing : modèle 5",
     description:
       'Sophisticated and comfortable trousers for the professional man. These flat-front pants offer a timeless look with a modern fit, perfect for office wear or formal occasions.',
     price: 110,
-    image: [p_img10],
-    category: 'Men',
+    image: [p_img10_1, p_img10_2, p_img10_3, p_img10_4],
+    category: 'Dressing',
     subCategory: 'Bottomwear',
     sizes: ['S', 'L', 'XL'],
     date: 1716622235448,

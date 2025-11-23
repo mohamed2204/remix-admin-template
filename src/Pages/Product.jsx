@@ -70,16 +70,18 @@ const Product = () => {
 
             <p className="pl-2">(122)</p>
           </div>
-          <p className="mt-5 text-3xl font-medium">
+          {/* <p className="mt-5 text-3xl font-medium">
             {currency}
             {productsData.price}
-          </p>
+          </p> */}
           <p className="mt-5 text-gray-500 md:w-4/5 ">
             {productsData.description}
           </p>
 
+          {/* ---------------------- products Sizes ---------------------- */}
+
           <div className="flex flex-col gap-4 my-8">
-            <p className="">Select Size</p>
+            {/* <p className="">Select Size</p>
             <div className="flex gap-2">
               {productsData.sizes.map((item, index) => (
                 <button
@@ -94,7 +96,7 @@ const Product = () => {
                   {item}
                 </button>
               ))}
-            </div>
+            </div> */}
           </div>
 
           <button
@@ -107,9 +109,10 @@ const Product = () => {
           <hr className="mt-8 sm:w-4/5" />
 
           <div className="flex flex-col gap-1 mt-5 text-sm text-gray-500">
-            <p>100% Original product </p>
-            <p>Free delivery on order above $49</p>
-            <p> Easy return and exchange policy within 7 days </p>
+            <p>100% Product original</p>
+            <p>Service après vente assuré</p>
+            {/* <p>Free delivery on order above $49</p>
+            <p> Easy return and exchange policy within 7 days </p> */}
           </div>
         </div>
       </div>
@@ -124,19 +127,18 @@ const Product = () => {
 
         <div className=" flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500 ">
           <p>
-            Ane-commerce website is an online platform that facilitates the
-            buying and selling of products or services over the internet. It
-            serves as a vietual marketplace where businesses and individuals.com
-            showcase ther produch, interact with customers, and conduct
-            fransactions without the need for a physical presence. E-commerce
-            websites have goned immense popularity due to their convenience,
-            accessibility, and the global reach they offer.
+            Un site web de commerce électronique est une plateforme en ligne qui facilite 
+            l'achat et la vente de produits ou de services sur Internet. Il sert de marché 
+            virtuel où entreprises et particuliers présentent leurs produits, interagissent 
+            avec les clients et réalisent des transactions sans avoir besoin d'une présence physique. 
+            Les sites web de commerce électronique ont connu une immense popularité grâce à 
+            leur praticité, leur accessibilité et leur portée mondiale.
           </p>
           <p>
-            E-commerce websites typically display products or services along
-            with defailed descriptions, images, prices, and any ovalable
-            variations (eg, sizes colors). Each product uwaly has its ww
-            dedicated page with relevant infurroution
+            Les sites de commerce électronique présentent généralement les produits ou services 
+            accompagnés de descriptions détaillées, d'images, de prix et de toutes les variations 
+            possibles (par exemple, les tailles et les couleurs). Chaque produit possède 
+            généralement sa propre page web contenant les informations pertinentes.
           </p>
         </div>
       </div>
