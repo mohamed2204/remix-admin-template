@@ -221,7 +221,7 @@ const Collection = () => {
           >
             <option value="relevent">Trier par : Pertinent</option>
             <option value="low-high">Trier par : Ventes flash</option>
-            <option value="high-low">Trier par : Denières ventes</option>
+            <option value="high-low">Trier par : Dernières ventes</option>
           </select>
         </div>
 
