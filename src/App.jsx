@@ -41,7 +41,7 @@ function App() {
         <Route path="/orders" element={<Orders />} />
         {/* <Route path="/testdb" element={<TestDB />} /> */}
         {/* <Route path="/testdb" element={<Example />} /> */}
-        <Route path="/testdb" element={<Carousel />} />
+        {/* <Route path="/testdb" element={<Carousel />} /> */}
       </Routes>
 
       <Footer />
